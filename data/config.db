@@ -1,0 +1,1 @@
+{"hosts":[{"into":"localstorage","index":0,"hostName":"My Server","tunnelingURL":"","requestType":"jsonp","host":"128.199.148.2","user":"wordpress","pass":"xxEb0REcqt","charset":"utf8","port":"3306","dbms":"mysql","autoConnection":false}],"noIndexing":["information_schema","performance_schema","mysql"],"autoLoadConnectionWindow":true,"_id":"xqMkpb81SaLmNOlv"}

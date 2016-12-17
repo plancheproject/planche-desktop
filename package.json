@@ -1,0 +1,41 @@
+{
+    "name": "planche",
+    "version": "1.0.0",
+    "description": "MySQL GUI Client Tool",
+    "keywords": [
+        "MySQL",
+        "GUI",
+        "ExtJS"
+    ],
+    "homepage": "https://github.com/plancheproject/planche",
+    "bugs": {
+        "url": "https://github.com/plancheproject/planche/issues"
+    },
+    "license": "GPLv3",
+    "author": "Jeong JuWon <2jw0718@gmail.com>",
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plancheproject/planche.git"
+    },
+    "dependencies": {
+        "deferred": "^0.7.5",
+        "express": "^4.14.0",
+        "mysql": "^2.11.1",
+        "nedb": "^1.8.0"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "private": true,
+    "devDependencies": {
+        "electron": "^1.4.1",
+        "electron-packager": "^8.3.0"
+    },
+    "scripts": {
+        "start": "npm update && electron .",
+        "php": "php tunneling/planche.php",
+        "node": "npm update && node tunneling/planche.js",
+        "packager": "npm update && electron-packager . --all  --out=package --overwrite"
+    }
+}
